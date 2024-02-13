@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.helaSidan{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 4fr;
+}
+.sidebar{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: #6366f1;
+    color: white;
+    padding-left: 3%;
+    gap: 20px;
+}
+.sidebarHeader h2{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    align-self: center;
+}
+.sidebarHeader svg{
+    fill: white;
+}
+
+.sidebarHeader{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.sidebarMainContent{
+    border: 3px solid black;
+}
+.sidebarAccountContent{
+    border: 3px solid black
+
+}
+.header{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.topContent{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.mainContent{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: lightgray;
+}
+.projects{
+    grid-column: 1 / 2;
+}
+.announcements{
+    grid-column: 2 / 3;
+}
+.trending{
+    grid-column: 2 / 3;
+}
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(autofill minmax(1fr, 200px));
+    gap: 23px;
+}
+.announcementsContainer{
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px gray;
+}
+.trendingContainer{
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px gray;
+}
+.project{
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px grey;
+    border-left: 4px solid orange;
+}
