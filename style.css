@@ -73,15 +73,18 @@ body{
     border: 1px solid gray;
     border-radius: 8px;
     box-shadow: 1px 1px 5px gray;
+    background-color: white;
 }
 .trendingContainer{
     border: 1px solid gray;
     border-radius: 8px;
     box-shadow: 1px 1px 5px gray;
+    background-color: white;
 }
 .project{
     border: 1px solid grey;
     border-radius: 8px;
     box-shadow: 1px 1px 5px grey;
     border-left: 4px solid orange;
+    background-color: white;
 }
