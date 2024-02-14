@@ -39,20 +39,88 @@ body{
 .header{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border: 3px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-left: 4%;
+    padding-right: 4%;
+    row-gap: 50px;
+    box-shadow: 3px 3px 7px black;
+}
+.searchbar{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-column: 1/2;
+
+}
+.searchbar svg{
+    width: 30px;
+}
+.searchbar input{
+    background-color: rgb(207, 207, 207);
+    border: 0px;
+    height: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px lightgray;
+}
+.accountMini{
+    grid-column: 2/3;
+    font-size: 24px;
+    font-weight: bold;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-self: end;
+    gap: 40px;
+}
+.accountMini svg{
+    width: 24px;
+}
+.accountMini img{
+    width: 50px;
+}
+.accountMini p{
+    padding: 0;
+    margin: 0;
 }
 .topContent{
     grid-column: 1/3;
     grid-row: 1/2;
 }
+.headerButtons{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.headerButtons button{
+    background-color: #6366f1;
+    border:0px;
+    border-radius: 23px;
+    padding: 8px 12px 8px 12px;
+    color:white;
+    font-size: 20px;
+    width: 110px;
+    box-shadow: 1px 1px 5px lightgray;
+}
+.accountBig{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+}
+.accountBig img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+
 .mainContent{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background-color: lightgray;
+    background-color: rgb(207, 207, 207);
 }
 .projects{
     grid-column: 1 / 2;
@@ -87,4 +155,7 @@ body{
     box-shadow: 1px 1px 5px grey;
     border-left: 4px solid orange;
     background-color: white;
+}
+.profilePic{
+    border-radius: 50%;
 }
