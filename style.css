@@ -15,6 +15,7 @@ body{
     padding-top: 15px;
     padding-left: 3%;
     gap: 20px;
+    padding-bottom: 8%;
 }
 .sidebarHeader h2{
     padding: 0;
@@ -74,7 +75,7 @@ body{
     width: 30px;
 }
 .searchbar input{
-    background-color: rgb(207, 207, 207);
+    background-color: #e0e7ff;
     border: 0px;
     height: 20px;
     border-radius: 8px;
@@ -138,9 +139,10 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto 1fr;
-    background-color: rgb(207, 207, 207);
+    background-color: #e0e7ff;
     column-gap: 20px;
     padding-left: 20px;
+    padding-bottom: 8%;
 }
 .projects{
     grid-column: 1 / 2;
@@ -167,7 +169,7 @@ body{
 .trendingContent{
     margin: 5%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
 }
 .projectsContainer{
