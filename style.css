@@ -146,6 +146,16 @@ body{
     grid-row: 2/3;
 
 }
+.trendingContent img{
+    width: 57px;
+    border-radius: 50%;
+}
+.trendingContent{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
 .projectsContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
