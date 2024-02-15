@@ -42,7 +42,7 @@ body{
 }
 .sidebarItem{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
 }
 .header{
