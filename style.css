@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: roboto;
 }
 .helaSidan{
     display: grid;
@@ -38,10 +39,13 @@ body{
     /*border: 3px solid black;*/
     height: 30%;
     margin-bottom: 80px;
+    font-weight: bold;
 }
 .sidebarAccountContent{
     /*border: 3px solid black;*/
     height: 20%;
+    font-weight: bold;
+
 }
 .sidebarItem{
     display: grid;
@@ -179,6 +183,8 @@ body{
     border-radius: 8px;
     box-shadow: 1px 1px 5px gray;
     background-color: white;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .trendingContainer{
     border: 1px solid gray;
@@ -194,6 +200,18 @@ body{
     background-color: white;
     padding-left: 24px;
 }
+.announcements p{
+    color: gray;
+}
+.project p{
+    color: gray;
+}
 .profilePic{
     border-radius: 50%;
+}
+.tweet{
+    color: gray;
+}
+.announcement{
+    border-bottom: 0.5px solid gray;
 }
